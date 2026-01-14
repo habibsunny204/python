@@ -5,19 +5,7 @@ def solve():
     n, k = map(int, input().split())
     v = input().strip()
 
-    ans = 0 
-    i = 0
-    nxt = -1
-    while i < n:
-        if v[i] == '1' :
-            nxt = i + k
-        
-        else : 
-            if i > nxt :
-                ans += 1
-        i += 1
-
-    print(ans)
+    
 
 def main():
     t = int(input())
